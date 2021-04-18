@@ -1,0 +1,123 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+
+    background-color: thistle;
+    color: blanchedalmond;
+background: rgb(51,77,80);
+background: linear-gradient(90deg, rgba(51,77,80,1) 15%, rgba(203,202,165,1) 100%);
+
+
+
+}
+
+/* Style the top navigation bar */
+.navbar{
+    display: flex; 
+  }
+
+  /* Style the navigation bar links */
+ a{
+     list-style: none;
+    
+ }
+.navbar a {
+    display: inline;
+    color: rgb(22, 22, 22);
+    padding: 14px 49.9px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    list-style: none;
+margin-bottom: 20px;
+  border: 1px solid black;
+  background-color: #54b65c9f;
+    background-image: linear-gradient(0deg, #83e04d49 0%, #0fbd9188 100%);
+    
+
+  }
+  .container{
+      display: flex;
+      /* background-color: #85FFBD;
+    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);  */
+    background-color: black;
+  }
+  h3{
+    background-color: #54b65c9f;
+    background-image: linear-gradient(0deg, #83e04d49 0%, #0fbd9188 100%);
+      
+      margin-top: 0;
+      margin-bottom: 0;
+      padding-left: 20px;
+      color: black;
+    
+  }
+  
+  .container2{
+    display: flex;
+background-color: black;
+padding-left: 20px;}
+p{ 
+    padding-left: 20px;
+    color: #FFFB7D;
+
+}
+
+.container3{
+    display: flex;
+  background-color: black;
+ 
+}
+.card3{
+    margin: 10px;
+    border: 1px solid black;
+    background-color: rgba(80, 77, 77, 0.336);
+    color: black;
+}
+.card3 p{
+    padding-top: 0;
+    margin-top: 0;
+    width: 95%;
+}
+.card1{
+    margin: 10px;
+    border: 1px solid black;
+}
+.card2{
+
+    margin: 10px;
+    border: 1px solid black;
+    background-color: rgba(116, 110, 110, 0.336);
+}
+.card3 img{
+    width: 355px;
+    height: 200px;
+}
+
+.card1 img{
+    width: 500px;
+    height: 300px;
+}
+input{
+    background-color: #FFFB7D;
+    float: right;
+border-top-right-radius: 50%;
+border-bottom-right-radius: 50%;
+padding-right: 20px;
+} 
+
+button{
+   background-color: burlywood;
+   
+}
+footer{
+    text-align: center;
+    font-style: italic;
+    font-size: xx-large;
+    background-color: #54b65c21;
+    background-image: linear-gradient(0deg, #83e04d2c 0%, #0fbd9138 100%);
+
+  
+}
